@@ -8,10 +8,6 @@ image1.setAttribute("src", randomImageSource);
 var randomNumber2 = Math.floor(Math.random() * 6 + 1);
 var randomImageSource2 = "images/dice" + randomNumber2 + ".png";
 
-document.querySelector("label").innerHTML = randomNumber1;
-// document.getElementsById("number1").innerHTML = randomNumber1;
-// document.getElementsById("number2").innerHTML = randomNumber2;
-
 document.getElementById("one").innerHTML = randomNumber1;
 document.getElementById("two").innerHTML = randomNumber2;
 
