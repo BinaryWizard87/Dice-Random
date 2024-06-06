@@ -20,3 +20,7 @@ if (randomNumber1 > randomNumber2) {
 } else {
   document.querySelector("h1").innerHTML = "Draw!";
 }
+
+document.getElementById("refreshButton").addEventListener("click", function () {
+  location.reload();
+});

@@ -47,3 +47,25 @@ footer {
   text-align: center;
   font-family: "Indie Flower", cursive;
 }
+
+/* Style for the refresh button */
+#refreshButton {
+  background-color: #8732b1; /* Green background color */
+  border: none; /* No border */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* No underline */
+  display: inline-block; /* Display as a block element */
+  font-size: 2.5rem; /* Font size */
+  margin-bottom: 20px; /* Margin at the bottom */
+  cursor: pointer; /* Cursor style */
+  font-family: sans-serif;
+  transition: background-color 0.3s ease; /* Smooth transition */
+  border-radius: 5px; /* Rounded corners */
+}
+
+/* Hover effect for the button */
+#refreshButton:hover {
+  background-color: #45a049; /* Darker green color on hover */
+}
